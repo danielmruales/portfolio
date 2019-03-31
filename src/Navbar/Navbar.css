@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    border: white 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 15pt;
+}
+
+
+.navItems {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}

@@ -5,8 +5,9 @@ import './Home.css'
 const Home = () => {
     return (
         <div className='home'>
-            <h1 className='title'>Daniel Ruales</h1>
-            <Link>Check Out MY Work</Link>
+            <h1 className='title'>Hi, I'm Daniel Ruales</h1>
+            <h2 className='subTitle'>Project Manager &  Full Stack Web Developer</h2>
+            <Link to='/projects' className='button'>View My Work</Link>
         </div>
     );
 };
