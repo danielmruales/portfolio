@@ -2,13 +2,66 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 25vh;
+    margin-top: 23vh;
+    
 }
 
 
 .projects {
-height: 150px;
-border: black 2px solid;
-border-radius: 10px;
+    height: 150px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+.lastProject {
+    height: 150px;
+    width: 125px;
+    border: black 2px solid;
+    border-radius: 10px;
+    margin-bottom: 55pt;
+}
+
+.projectTitle{
+    text-align: center;
+    color: white;
 
 }
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: white;
+
+}
+
+.liveBtn {
+    color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: black;
+    width: 100px;
+    margin: auto;
+}
+
+
+@media (max-width: 420px) {
+    .mainProjectsDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60pt
+    }
+    .projects{
+        height: 125px;
+        /* margin-bottom: 65pt */
+    }
+
+    .liveBtn {
+        margin-bottom: 30px;
+    }
+}
+
