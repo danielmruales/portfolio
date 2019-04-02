@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
             <Navbar/>
-            <h1>Let's Create Something!</h1>
+            <h1 className='message'>Let's Create Something!</h1>
             <div className='mainContactDiv' >
                 <form className='form'>
                     <input type='text' placeholder='First Name'/>

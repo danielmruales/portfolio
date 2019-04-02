@@ -13,13 +13,32 @@
     font-size: 45pt;
 }
 
+.buttonDiv{
+    margin-top: 20pt;
+}
+
+
+
 .button {
     text-decoration: none;
     color: white;
     border: white solid 2px;
-    padding: 5px;
+    padding: 5pt;
     border-radius: 5px;
     font-size: 13pt;
+    margin-right: 15pt;
+
+}
+
+.resumeBtn {
+    text-decoration: none;
+    color: white;
+    border: white solid 2px;
+    padding: 5pt;
+    border-radius: 5px;
+    font-size: 13pt;
+    margin-right: 20pt; 
+    
 }
 
 @media (max-width: 420px) {

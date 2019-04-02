@@ -7,7 +7,10 @@ const Home = () => {
         <div className='home'>
             <h1 className='title'>Hi, I'm Daniel Ruales</h1>
             <h2 className='subTitle'>Project Manager &  Full Stack Web Developer</h2>
-            <Link to='/projects' className='button'>View My Work</Link>
+            <div className='buttonDiv'>
+                <Link to='/projects' className='resumeBtn'> View Resume</Link>
+                <Link to='/projects' className='button'> View Projects</Link>
+            </div>
         </div>
     );
 };

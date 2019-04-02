@@ -11,5 +11,22 @@
 .profile {
     height: 200px;
     border-radius: 190px;
-    border: red 4px solid;
+    border: black 4px solid;
+}
+
+
+.aboutMe {
+    margin: auto;
+    width: 50vw;
+    margin-top: 30pt;
+    font-size: 15pt;
+    margin-bottom: 80pt;
+}
+
+@media (max-width: 420px) {
+    .aboutMe{
+        width: 80vw;
+        margin-top: 20pt;
+        text-align: justify;
+    }
 }
