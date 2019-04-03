@@ -2,16 +2,17 @@
 .mainAboutDiv{
     display: flex;
     justify-content: center;
-    margin-top: 20vh
+    margin-top: 16vh;
 }
 
 
 
 
 .profile {
-    height: 200px;
-    border-radius: 190px;
-    border: black 4px solid;
+    height: 260px;
+    width: 300px;
+    border-radius: 50%;
+    border: white 4px solid;
 }
 
 
@@ -21,6 +22,10 @@
     margin-top: 30pt;
     font-size: 15pt;
     margin-bottom: 80pt;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.425);
+    border-radius: 10px;
+    padding: 30px
 }
 
 @media (max-width: 420px) {

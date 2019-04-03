@@ -49,3 +49,12 @@
         font-size: 13pt;
     }
 }
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 25pt;
+    }
+    .subTitle{
+        font-size: 11pt;
+    }
+}
