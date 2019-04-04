@@ -6,9 +6,11 @@ const Contact = () => {
     return (
         <div>
             <Navbar/>
-            <h1 className='message'>Want to get in touch?</h1>
-            <div className='mainContactDiv' >
+            <div className='container'>
+                <h1 className='message'>Want to get in touch?</h1>
+                
                 <h3>Send me an e-mail at danielmruales@gmail.com</h3>
+                
             </div>
         </div>
     );
