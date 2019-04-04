@@ -6,14 +6,9 @@ const Contact = () => {
     return (
         <div>
             <Navbar/>
-            <h1 className='message'>Let's Create Something!</h1>
+            <h1 className='message'>Want to get in touch?</h1>
             <div className='mainContactDiv' >
-                <form className='form'>
-                    <input type='text' placeholder='First Name'/>
-                    <input type='text' placeholder='Last Name'/>
-                    <input type='text' placeholder='E-mail'/>
-                    <button> Submit </button>
-                </form>
+                <h3>Send me an e-mail at danielmruales@gmail.com</h3>
             </div>
         </div>
     );

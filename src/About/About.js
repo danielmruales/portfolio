@@ -9,10 +9,8 @@ const About = () => {
             <Navbar/>
             <div className='mainAboutDiv'>
                 <img  className='profile' src={me} alt='profile pic'/>
-
-            
             </div>
-                <p className='aboutMe'> Born in Quito, Ecuador I've always had an unrelenting drive to succeed. Project manager with proficiency in the MERN stack. I specialize in working with SaaS companies and have a strong passion for all things digital. I strive to create products that will bridge the gap between people and technology. </p>
+                <p className='aboutMe'> Born in Quito, Ecuador I've always had an unrelenting drive to succeed. I am a Project Manager with proficiency in the MERN stack. I specialize in working with SaaS companies and have a strong passion for all things digital. I strive to create products that will help bridge the gap between people and technology. Any time I'm not at a computer I'm usually at the symphony, playing soccer, or out on an adventure. </p>
         </div>
     );
 };
