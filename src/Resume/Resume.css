@@ -9,13 +9,13 @@
 
 .view {
     margin-bottom: 40pt;
-    color: white;
+    color: black;
 }
 
 .resume {
     height: 900pt;
     width: 51vw;
-    border: white 5px solid;
+    border: black 5px solid;
     border-radius: 5px;
     margin-bottom: 60pt;
 }

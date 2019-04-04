@@ -12,7 +12,12 @@
     color: white
 }
 
-
+@media (max-width: 420px) {
+    .container {
+        width: 90vw;
+        text-align: center;
+    }
+}
 
 
 

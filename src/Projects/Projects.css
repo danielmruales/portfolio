@@ -27,6 +27,13 @@
     
 }
 
+
+.description {
+    text-align: center;
+    color: white;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -85,7 +92,10 @@ a {
         height: 125px;
         /* margin-bottom: 65pt */
     }
-
+    .firstBtn {
+        background-color: rgba(0, 0, 0, 0.63);
+        border: white 1px solid;
+    }
     .liveBtn {
         margin-bottom: 30px;
         background-color: rgba(0, 0, 0, 0.63);

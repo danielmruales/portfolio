@@ -5,6 +5,8 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-color: #040402;
+  font-family: 'Lato', sans-serif;
+
 }
 
 @media (max-width: 420px) {
