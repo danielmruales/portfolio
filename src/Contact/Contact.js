@@ -7,9 +7,9 @@ const Contact = () => {
         <div>
             <Navbar/>
             <div className='container'>
-                <h1 className='message'>Let's Collaborate!</h1>
+                <h1 className='message'>Let's Chat!</h1>
                 
-                <h3>Contact me at danielmruales@gmail.com</h3>
+                <h3>If you want to talk about collaborating on a project or if you just want to say hi, shoot me an email to danielmruales@gmail.com</h3>
                 
             </div>
         </div>

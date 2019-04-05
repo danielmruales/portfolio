@@ -1,15 +1,17 @@
 .container {
     background-color:  rgba(128, 128, 128, 0.425);
-    width: 50vw;
+    width: 33vw;
     display: flex;
     flex-direction: column;
     /* text-align: center; */
     align-items: center;
     /* justify-content: center; */
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 24vh;
     border-radius: 10px;
-    color: white
+    color: white;
+    padding: 10px;
+    
 }
 
 @media (max-width: 420px) {

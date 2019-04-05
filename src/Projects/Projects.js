@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Nabar'
 import evas from '../Evas.jpg'
 import wanderlust from '../Wanderlust.png'
+import fin from '../mcfinny.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -25,8 +26,8 @@ const Projects = () => {
                 <p className='liveBtn'>View Live</p>
             </a>
             <a href='https://github.com/danielmruales/portfolio' target='_blank' rel="noopener noreferrer">
-                <h1 className='projectTitle' >Personal Project</h1>
-                <img src='https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_36722630_Full.jpg?crop=0,0,6549,4912&wid=580&hei=435&scl=11.291954022988506' className='lastProject' alt='preview' />
+                <h1 className='projectTitle' >M.C. Finnegan</h1>
+                <img src={fin} className='lastProject' alt='preview' />
                 <p className='description'>Full Stack website for local professional</p>
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
                 <p className='lastLiveBtn'>View On GitHub</p>
