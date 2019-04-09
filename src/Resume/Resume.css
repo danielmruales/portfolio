@@ -15,7 +15,7 @@
 .resume {
     height: 900pt;
     width: 51vw;
-    border: black 5px solid;
+    border: darkgrey 5px solid;
     border-radius: 5px;
     margin-bottom: 60pt;
 }

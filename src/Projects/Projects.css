@@ -24,8 +24,16 @@
 .projectTitle{
     text-align: center;
     color: white;
-    
+    transition: ease-out;
+    transition-duration: 400ms;
 }
+
+.projectTitle:hover {
+    color: orange;
+    transition: ease-in;
+    transition-duration: 400ms;
+}
+
 
 
 .description {
@@ -47,37 +55,64 @@ a {
 
 .firstBtn{
     color: white;
-    border: black 1px solid;
     border-radius: 5px;
-    background-color: black;
+    background-color: grey;
     width: 140px;
     padding: 2px;
     margin: auto;
-    text-align: center
+    text-align: center;
+    transition: ease-out;
+    transition-duration: 400ms;
 }
+
+
+.firstBtn:hover {
+    color: orange;
+    transition: ease-in;
+    transition-duration: 400ms;
+}
+
 
 
 .liveBtn {
     color: white;
-    border: black 1px solid;
     border-radius: 5px;
-    background-color: black;
+    background-color: grey;
     width: 100px;
     padding: 2px;
     margin: auto;
     text-align: center;
+    transition: ease-out;
+    transition-duration: 400ms
 }
+
+.liveBtn:hover {
+    color: orange;
+    transition: ease-in;
+    transition-duration: 400ms;
+    
+}
+
 .lastLiveBtn {
     color: white;
-    border: black 1px solid;
     border-radius: 5px;
-    background-color: black;
+    background-color: grey;
     width: 140px;
     margin: auto;
     padding: 2px;
     text-align: center;
     margin-bottom: 55pt;
+    transition: ease-out;
+    transition-duration: 400ms;
 }
+
+
+.lastLiveBtn:hover {
+    color: orange;
+    transition: ease-in;
+    transition-duration: 400ms;
+}
+
 
 
 @media (max-width: 420px) {

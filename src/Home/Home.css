@@ -8,9 +8,16 @@
 
 }
 
+.hi {
+    font-size: 45pt;
+    margin: 0;
+}
+
+
 .title {
     margin: 0;
     font-size: 45pt;
+    color: orange
 }
 
 
@@ -29,7 +36,14 @@
     border-radius: 5px;
     font-size: 13pt;
     margin-right: 15pt;
+    transition: ease-out;
+    transition-duration: 400ms;
+}
 
+.button:hover {
+    background-color: black;
+    transition: ease-in;
+    transition-duration: 400ms;
 }
 
 .resumeBtn {
@@ -40,7 +54,14 @@
     border-radius: 5px;
     font-size: 13pt;
     margin-right: 20pt; 
-    
+    transition: ease-out;
+    transition-duration: 400ms;
+}
+
+.resumeBtn:hover{
+    background-color: black;
+    transition: ease-in;
+    transition-duration: 400ms;
 }
 
 @media (max-width: 420px) {
