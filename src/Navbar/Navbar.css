@@ -23,7 +23,7 @@
 .navItems:hover {
     color: orange;
     transition: ease-in;
-    transition-duration: 400ms;
+    transition-duration: 200ms;
 }
 
 @media (max-width: 320px) {

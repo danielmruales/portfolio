@@ -31,7 +31,7 @@
 .projectTitle:hover {
     color: orange;
     transition: ease-in;
-    transition-duration: 400ms;
+    transition-duration: 200ms;
 }
 
 
@@ -69,7 +69,7 @@ a {
 .firstBtn:hover {
     color: orange;
     transition: ease-in;
-    transition-duration: 400ms;
+    transition-duration: 200ms;
 }
 
 
@@ -89,7 +89,7 @@ a {
 .liveBtn:hover {
     color: orange;
     transition: ease-in;
-    transition-duration: 400ms;
+    transition-duration: 200ms;
     
 }
 
@@ -110,7 +110,7 @@ a {
 .lastLiveBtn:hover {
     color: orange;
     transition: ease-in;
-    transition-duration: 400ms;
+    transition-duration: 200ms;
 }
 
 
