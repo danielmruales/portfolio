@@ -17,7 +17,7 @@
 .title {
     margin: 0;
     font-size: 45pt;
-    color: orange
+    color: #FFE403
 }
 
 
@@ -41,8 +41,9 @@
 }
 
 .button:hover {
-    background-color: black;
+    background-color: #FFE403;
     transition: ease-in;
+    color: black;
     transition-duration: 400ms;
 }
 
@@ -59,7 +60,8 @@
 }
 
 .resumeBtn:hover{
-    background-color: black;
+    background-color: #FFE403;
+    color: black;
     transition: ease-in;
     transition-duration: 400ms;
 }

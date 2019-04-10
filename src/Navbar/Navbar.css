@@ -21,7 +21,7 @@
 }
 
 .navItems:hover {
-    color: orange;
+    color: #FFE403;
     transition: ease-in;
     transition-duration: 200ms;
 }

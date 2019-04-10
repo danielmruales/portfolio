@@ -5,3 +5,15 @@
     position: fixed;
     bottom: 0;
 }
+
+.social:hover {
+    transition: ease-in;
+    transition-duration: 200ms;
+    background-color: orange;
+    border-radius: 7px
+}
+
+.social {
+    transition: ease-out;
+    transition-duration: 400ms;
+}
