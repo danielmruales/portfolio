@@ -9,7 +9,7 @@
 .social:hover {
     transition: ease-in;
     transition-duration: 200ms;
-    background-color: orange;
+    background-color: #FFE403;
     border-radius: 7px
 }
 
