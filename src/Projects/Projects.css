@@ -132,7 +132,7 @@ a {
     }
     .projects{
         height: 125px;
-        /* margin-bottom: 65pt */
+        
     }
     .firstBtn {
         background-color: #FFE403;
@@ -149,3 +149,18 @@ a {
     }
 }
 
+@media (max-width: 770px) {
+    .projects {
+        height: 110px;
+    }
+    .lastProject {
+        height: 110px;
+        width: 210px;
+    }
+    .description {
+        font-size: 10pt;
+    }
+    .madeWith {
+        font-size: 10pt;
+    }
+}

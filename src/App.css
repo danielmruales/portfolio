@@ -11,8 +11,15 @@ body {
 
 @media (max-width: 420px) {
   body {
-    /* background-repeat: no-repeat; */
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     
+  }
+}
+
+@media (max-width: 770px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
