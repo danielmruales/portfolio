@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Nabar'
 import evas from '../Evas.jpg'
 import wanderlust from '../Wanderlust.png'
 import fin from '../mcfinny.png'
+import atheist from '../atheistmingle.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -25,13 +26,21 @@ const Projects = () => {
                 <p className='madeWith'> React, Node, Hiking Project API </p>
                 <p className='liveBtn'>View Live</p>
             </a>
-            <a href='https://github.com/danielmruales/portfolio' target='_blank' rel="noopener noreferrer">
+            <a href='https://github.com/danielmruales/mccauleyfinnegan' target='_blank' rel="noopener noreferrer">
                 <h1 className='projectTitle' >M.C. Finnegan</h1>
-                <img src={fin} className='lastProject' alt='preview' />
+                <img src={fin} className='projects' alt='preview' />
                 <p className='description'>Full Stack website for local professional</p>
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
                 <p className='lastLiveBtn'>View On GitHub</p>
             </a>
+            <a href='https://github.com/danielmruales/atheistmingle' target='_blank' rel="noopener noreferrer" width='287px'>
+                <h1 className='projectTitle' >Atheist Mingle</h1>
+                <img src={atheist} className='lastProject' alt='preview' />
+                <p className='description'>Dating app for atheist individuals</p>
+                <p className='madeWith'> React, Node, Axios </p>
+                <p className='lastLiveBtn'>View On GitHub</p>
+            </a>
+            
         </div>
         </div>
     );
