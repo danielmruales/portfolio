@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Nabar'
 import evas from '../Evas.jpg'
 import wanderlust from '../Wanderlust.png'
 import fin from '../mcfinny.png'
-import atheist from '../atheistmingle.png'
+import philosophy from '../philosophyApp.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -33,11 +33,11 @@ const Projects = () => {
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
                 <p className='lastLiveBtn'>View On GitHub</p>
             </a>
-            <a href='https://github.com/danielmruales/atheistmingle' target='_blank' rel="noopener noreferrer" width='287px'>
-                <h1 className='projectTitle' >Atheist Mingle</h1>
-                <img src={atheist} className='lastProject' alt='preview' />
-                <p className='description'>Dating app for atheist individuals</p>
-                <p className='madeWith'> React, Node, Axios </p>
+            <a href='https://github.com/danielmruales/philosophy' target='_blank' rel="noopener noreferrer" width='287px'>
+                <h1 className='projectTitle' >Philosophize This</h1>
+                <img src={philosophy} className='lastProject' alt='preview' />
+                <p className='description'>Website aimed at democratizing philosophy</p>
+                <p className='madeWith'> React, Node, JavaScript </p>
                 <p className='lastLiveBtn'>View On GitHub</p>
             </a>
             
