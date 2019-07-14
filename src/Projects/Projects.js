@@ -33,7 +33,7 @@ const Projects = () => {
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
                 <p className='lastLiveBtn'>View On GitHub</p>
             </a>
-            <a href='https://github.com/danielmruales/philosophy' target='_blank' rel="noopener noreferrer" width='287px'>
+            <a href='https://philosophizethis.netlify.com/' target='_blank' rel="noopener noreferrer" width='287px'>
                 <h1 className='projectTitle' >Philosophize This</h1>
                 <img src={philosophy} className='lastProject' alt='preview' />
                 <p className='description'>Website aimed at democratizing philosophy</p>
