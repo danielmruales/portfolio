@@ -1,7 +1,7 @@
 .home {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     color: white;
     flex-direction: column;
@@ -25,7 +25,6 @@
 .buttonDiv{
     margin-top: 20pt;
 }
-
 
 
 .button {

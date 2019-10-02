@@ -7,7 +7,7 @@ const Home = () => {
         <div className='home'>
             <h1 className='hi'>Hi, I'm </h1>
             <h1 className='title'>Daniel Ruales</h1>
-            <h2 className='subTitle'>Project Manager &  Full Stack Web Developer currently at Soar.com</h2>
+            <h2 className='subTitle'>Product Manager &  Full Stack Web Developer</h2>
             <div className='buttonDiv'>
                 <Link to='/resume' className='resumeBtn'> View Resume</Link>
                 <Link to='/projects' className='button'> View Projects</Link>
