@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom'
 import Home from './Home/Home';
-import Navbar from './Navbar/Nabar'
+// import Navbar from './Navbar/Nabar'
 import Projects from './Projects/Projects'
 import Resume from './Resume/Resume'
 import About from './About/About'
@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/projects' component={Projects}/>

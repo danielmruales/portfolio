@@ -1,12 +1,12 @@
 import React from 'react';
-// import Navbar from '../Navbar/Nabar'
+import Navbar from '../Navbar/Nabar'
 import me from '../Danny1.jpg'
 import './About.css'
 
 const About = () => {
     return (
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
             <div className='mainAboutDiv'>
                 <img  className='profile' src={me} alt='profile pic'/>
             </div>

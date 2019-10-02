@@ -1,5 +1,5 @@
 import React from 'react';
-// import Navbar from '../Navbar/Nabar'
+import Navbar from '../Navbar/Nabar'
 import evas from '../Evas.jpg'
 import wanderlust from '../Wanderlust.png'
 import fin from '../mcfinny.png'
@@ -9,7 +9,7 @@ import './Projects.css'
 const Projects = () => {
     return (
         <div>
-        {/* <Navbar/> */}
+        <Navbar/>
         <div className='mainProjectsDiv'>
             
             <a href='https://github.com/danielmruales/evas-bakery' rel="noopener noreferrer" target='_blank'>
