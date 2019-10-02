@@ -38,7 +38,7 @@ const Projects = () => {
                 <img src={fin} className='projects' alt='preview' />
                 <p className='description'>Full Stack website for local professional</p>
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
-                <p className='lastLiveBtn'>View On GitHub</p>
+                <p className='firstBtn'>View On GitHub</p>
             </a>
             
         </div>
