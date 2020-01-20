@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar/Nabar'
+import Navbar from '../Navbar/Navbar'
 import evas from '../Evas.jpg'
 import wanderlust from '../Wanderlust.png'
 import fin from '../mcfinny.png'

@@ -46,7 +46,7 @@
     transition-duration: 400ms;
 }
 
-.resumeBtn {
+.aboutBtn {
     text-decoration: none;
     color: white;
     border: white solid 2px;
@@ -58,7 +58,7 @@
     transition-duration: 400ms;
 }
 
-.resumeBtn:hover{
+.aboutBtn:hover{
     background-color: #FFE403;
     color: black;
     transition: ease-in;
