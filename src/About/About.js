@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar'
-import me from '../Danny1.jpg'
+import me from '../DannySelfie.jpg'
 import './About.css'
 
 const About = () => {

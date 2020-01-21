@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar'
 // import resumePic from '../DanielResume.pdf'
-import resume from '../resume.png'
+import resume from '../DanielRualesResume2.png'
 import './Resume.css'
 
 
