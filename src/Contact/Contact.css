@@ -9,12 +9,35 @@
     margin-top: 24vh;
     border-radius: 10px;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
 
-span {
-    color: #FFE403;
+.message {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.mailBtn{
+    color: black;
+    border-radius: 5px;
+    background-color: #FFE403;
+    width: 90px;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    transition: ease-out;
+    transition-duration: 400ms;
+}
+
+
+.mailBtn:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    transition: ease-in;
+    transition-duration: 200ms;
+    
 }
 
 @media (max-width: 420px) {

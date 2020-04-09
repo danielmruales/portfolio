@@ -12,7 +12,7 @@
     border-radius: 10px;
 }
 
-.lastProject {
+.philosophyPic {
     height: 150px;
     width: 283.5px;
     border: whitesmoke 2px solid;
@@ -65,6 +65,29 @@ a {
 
 
 .firstBtn:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    transition: ease-in;
+    transition-duration: 200ms;
+    
+}
+
+
+.caulBtn{
+    color: black;
+    border-radius: 5px;
+    background-color: #FFE403;
+    width: 140px;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    transition: ease-out;
+    transition-duration: 400ms;
+}
+
+
+.caulBtn:hover {
     color: white;
     background-color: black;
     border: 1px solid white;
@@ -134,7 +157,9 @@ a {
     }
     .firstBtn {
         background-color: #FFE403;
-
+    }
+    .caulBtn{
+        background-color: #FFE403;
     }
     .liveBtn {
         margin-bottom: 30px;
@@ -148,17 +173,23 @@ a {
 }
 
 @media (max-width: 770px) {
+
+    
     .projects {
         height: 110px;
     }
-    .lastProject {
+    .philosophyPic{
         height: 110px;
-        width: 210px;
+        width: 200px;
+        margin-left: 5vw
     }
     .description {
         font-size: 10pt;
     }
     .madeWith {
         font-size: 10pt;
+    }
+    .caulBtn{
+        margin-bottom: 65px;
     }
 }
