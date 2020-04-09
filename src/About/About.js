@@ -10,7 +10,12 @@ const About = () => {
             <div className='mainAboutDiv'>
                 <img  className='profilePic' src={me} alt='profile pic'/>
             </div>
-                <p className='aboutMe'> Born in Quito, Ecuador I came to the United States at a young age. Growing up an immigrant in Utah county I've always had an unrelenting drive to succeed. I specialize in working with SaaS companies and have a strong passion for all things digital. I strive to create products that will help bridge the gap between people and technology. In my free time I love going to the symphony, playing soccer, or venturing out into the wilderness. </p>
+                <p className='aboutMe'>
+                    Hi there I am Daniel, I am a passionate, driven, and adaptable learner who
+                    strives to create products that help bridge the gap between people and technology. 
+                    I specialize in working with SaaS companies and 
+                    in my free time I love visiting the symphony, playing soccer, practicing Taekwondo or learning more about ethics. 
+                </p>
         </div>
     );
 };
