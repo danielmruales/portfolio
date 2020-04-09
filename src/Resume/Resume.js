@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar'
 // import resumePic from '../DanielResume.pdf'
-import resume from '../DanielRualesResume2.png'
+import resume from '../DanielRualesResume.pdf'
 import './Resume.css'
 
 
@@ -11,8 +11,8 @@ const Resume = () => {
             <Navbar/>
             <div className='mainResumeDiv'>
             {/* <h1 className='view'>View My Resume Below</h1> */}
-                {/* <embed src={resumePic} type="application/pdf" className='resume'/> */}
-                <img src={resume} alt='resume' className='resume'/> 
+                <embed src={resume} type="application/pdf" className='resume'/>
+                {/* <img src={resume} alt='resume' className='resume'/>  */}
             </div>
         </div>
     );
