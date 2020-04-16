@@ -19,7 +19,7 @@ const Projects = () => {
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
                 <p className='firstBtn'> View On GitHub</p>
             </a>
-            <a href='http://wanderlustbase.surge.sh/' target='_blank' rel="noopener noreferrer" >
+            <a href='https://wanderlusthikes.netlify.app' target='_blank' rel="noopener noreferrer" >
                 <h1 className='projectTitle'>WanderLust</h1>
                 <img src={wanderlust} alt='preview' className='projects'/>
                 <p className='description'>Web application to find local hikes </p>
