@@ -16,6 +16,7 @@ const About = () => {
                     I specialize in working with SaaS companies and 
                     in my free time I enjoy visiting the symphony, playing soccer, and studying philosophy. 
                 </p>
+
         </div>
     );
 };

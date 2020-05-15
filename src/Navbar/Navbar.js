@@ -11,6 +11,7 @@ const Nabar = (props) => {
             <Link to='/projects' className='navItems'>Projects</Link>
             <Link to='/resume' className='navItems'>Resume</Link>
             <Link to='/about' className='navItems'>About</Link>
+            {/* <Link to='/recommendations' className='navItems'>Recommendations</Link> */}
             <Link to='/contact' className='navItems'>Contact</Link>
         </div>
     );
