@@ -9,7 +9,7 @@ const Home = () => {
             <h1 className='title'>Daniel Ruales</h1>
             <h2 className='subTitle'>Product Manager & Web Developer</h2>
             <div className='buttonDiv'>
-                <Link to='/resume' className='resumeButton' onClick="dataLayer.push({'resumeVisit': 'resumeBtnClick'});"> View My Resume </Link>
+                <Link to='/resume' className='resumeButton' > View My Resume </Link>
                 <Link to='/about' className='aboutBtn'> A Bit About Me </Link>
             </div>
         </div>
