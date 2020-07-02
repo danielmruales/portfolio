@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom'
 import Home from './Home/Home';
-// import Navbar from './Navbar/Nabar'
+// import Navbar from './Navbar/Navbar.js'
 import Projects from './Projects/Projects'
 import Resume from './Resume/Resume'
 import About from './About/About'
