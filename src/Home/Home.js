@@ -14,7 +14,10 @@ const Home = () => {
                 <Link to='/about' className='aboutBtn'> Get to know me </Link>
             </div>
         </div>
+
     );
 };
 
 export default Home;
+
+

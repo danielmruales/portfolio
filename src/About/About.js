@@ -18,6 +18,7 @@ const About = () => {
                     Some of my passions in life include visiting the symphony, playing soccer, Taekwondo and philosophy. 
                     {/* As a black belt at <span href="https://www.paceacademytkd.com"> Pace Academy Taekwondo </span> */}
                 </p>
+
         </div>
     );
 };
