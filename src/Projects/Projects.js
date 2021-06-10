@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import evas from '../Evas.jpg'
 import wanderlust from '../Wanderlust.png'
 import fin from '../mcfinny.png'
-import philosophy from '../philosophyApp.png'
+import pace from '../paceWebsite.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -26,16 +26,16 @@ const Projects = () => {
                 <p className='madeWith'> React, Node, Hiking Project API </p>
                 <p className='liveBtn'>View Live</p>
             </a>
-            <a href='https://philosophizethis.netlify.com/' target='_blank' rel="noopener noreferrer" width='287px'>
-                <h1 className='projectTitle' >Philosophize This</h1>
-                <img src={philosophy} className='philosophyPic' alt='preview' />
-                <p className='description'>Website aimed at democratizing philosophy</p>
+            <a href='https://www.paceacademytkd.com/' target='_blank' rel="noopener noreferrer" width='287px'>
+                <h1 className='projectTitle' >Pace Academy</h1>
+                <img src={pace} className='philosophyPic' alt='preview' />
+                <p className='description'>Website for a local Martial Arts school</p>
                 <p className='madeWith'> React, Node, JavaScript </p>
-                <p className='lastLiveBtn'>View on GitHub</p>
+                <p className='lastLiveBtn'>View Live</p>
             </a>
             <a href='https://github.com/danielmruales/mccauleyfinnegan' target='_blank' rel="noopener noreferrer">
                 <h1 className='projectTitle' >M.C. Finnegan</h1>
-                <img src={fin} className='projects' alt='preview' />
+                <img src={fin} className='projects' alt='preview'/>
                 <p className='description'>Full Stack website for local professional</p>
                 <p className='madeWith'> React, Node, MongoDB, Express </p>
                 <p className='caulBtn'>View on GitHub</p>
